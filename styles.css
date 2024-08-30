@@ -1,0 +1,31 @@
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+body{
+  background-color: rgb(243,236,226);
+}
+.left, .right {
+  flex-basis: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  margin: 5%;
+  color: rgb(46,41,58);
+  overflow: hidden;
+  max-width: 80%;
+  min-width: 50ch;
+  text-align: center;
+
+}
+.img {
+  width: 50%;
+  height: 50%;
+}
